@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "965528200781",
+    "firebase_url": "https://uokpointtracker.firebaseio.com",
+    "project_id": "uokpointtracker",
+    "storage_bucket": "uokpointtracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965528200781:android:fd386b9661280a18",
+        "android_client_info": {
+          "package_name": "com.example.muneeb.uokdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965528200781-tnvgl724ikt6cl8olschj86eiaa41kpu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muneeb.uokdriver",
+            "certificate_hash": "362b7af73cba6ed11ba80b42aefb23f892769302"
+          }
+        },
+        {
+          "client_id": "965528200781-o8o32h74g4jf3jpid6sa28lrofgk6jsj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "965528200781-bcbvmn122s9ihcagrm8a7o51ob9n0tql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANXLvNVtLXtwdRMRer4q6xlJJjTRSmMXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965528200781-o8o32h74g4jf3jpid6sa28lrofgk6jsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

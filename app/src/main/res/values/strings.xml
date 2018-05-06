@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UoK Driver</string>
+    <string name="title_activity_welcome">Map</string>
+    <string name="google_direction_api">AIzaSyAc3t4f-gllKX6KYnuEwG-qBf-PS7ttYNs</string>
+</resources>

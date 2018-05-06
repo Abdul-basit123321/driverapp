@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/busss"
+    tools:context="com.example.muneeb.uokdriver.MainActivity"
+    android:id="@+id/rootLayout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:text="UoK Point Tracker"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text="DRIVER"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <TextView
+    android:id="@+id/txt_user_app"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:text="LOOKING FOR THE STUDENT APP"
+    android:textSize="12sp"
+    android:textColor="@color/bottomText"
+    android:textAlignment="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/txt_user_app"
+        android:weightSum="2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:text="SIGN IN"
+            android:background="@drawable/btn_sign_in_background"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="6dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:text="Register"
+            android:background="@drawable/btn_register_background"
+            android:textColor="@color/btnRegister"
+            android:layout_marginRight="6dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
